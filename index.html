@@ -1,0 +1,212 @@
+<!DOTYPE html>
+<html lang="ko">
+    <head>
+        <meta charset="utf-8">
+        <title>포트폴리오</title>
+        
+              <!-- style -->  
+        <link rel="stylesheet" href="CSS/style.css">
+      <!-- style -->  
+    </head>
+    <body>
+    <div id="wrap">       
+        <header id="header" class="clearfix">
+            <h1><a href="#"><img src="images/logo.jpg"  alt="portfolio"></a></h1>           
+            <div class="nav">
+            <ul class="clearfix" >
+                 <li><a href="#">profile</a>
+                <ul class="submenu"> 
+                    <li><a herf="#">Education</a></li>
+                </ul>
+             </li>
+                <li><a href="#">SNS</a>
+                    <ul class="submenu"> 
+                        <li><a href="https://www.instagram.com/changhee10049/">Instargram</a></li>
+                        <li><a href="https://www.youtube.com/channel/UCdeblGdhiDER-Ba7uLqX6iQ?view_as=subscriber">YouTube</a></li>
+                    </ul>
+                </li>      
+               
+                 <li><a href="#">MY Skill</a>
+                    <ul class="submenu"> 
+                        <li><a href="#">
+illustration</a></li>
+                        <li><a href="#">Photoshop</a></li>
+                        <li><a href="#">
+Premier pro</a></li>
+                        <li><a href="#">After effect</a></li>
+                    </ul>
+                </li>
+                
+                <li><a href="#">
+work</a>
+                    <ul class="submenu"> 
+                        <li><a href="#">video design</a></li>
+                        <li><a href="#"> 
+Illustration design</a></li>
+                        <li><a href="#">Photoshop design</a></li>
+                    </ul>
+                </li>
+               
+  
+                
+                
+                
+                
+                </ul>
+            </div>
+        </header>
+        
+        <!-- header -->
+        <section id ="banner">
+           <div class="slidelist">
+                    <div class="slideimg">
+                     <h2>카드뉴스</h2>
+                    <img src="images/banner03.jpg" alt="카드 뉴스">
+                    </div> 
+
+                    <div class="slideimg">
+                    <h2>할로윈 데이</h2>
+                    <img src="images/banner02.jpg" alt="할로윈 데이">
+                    </div>
+               
+                    <div class="slideimg">
+                    <h2>공정병역 ucc</h2>
+                    <img src="images/banner01.jpg" alt="공정병역 ucc">
+                    </div>
+            </div>
+        </section>
+       
+        
+        
+         <!-- banner -->
+        <section id="contents">
+        <img src="images/content01.jpg" alt="명언">
+        </section>
+        
+         
+        
+        
+         <!-- contents -->
+    <section id="mockup" class="clearfix">
+    <div class="best clearfix";>
+        <figure>
+        <img src="images/01.jpg" alt="어묵 쟁반";>
+        
+        <figcaption>먹방 썸네일, 텍스처 효과</figcaption>
+        </figure>
+        
+        
+         <figure>
+            <img src="images/02.jpg" alt="어묵 쟁반";>
+          <figcaption>창희의 일상(VOLG) 학급 공모전 출품작(동상) </figcaption>
+         </figure>
+             
+             <figure>
+            <img src="images/03.jpg" alt="어묵 쟁반";>
+          <figcaption>네온 사인 인트로 유튜브 영상</figcaption>
+         </figure>
+        
+        
+        </div>
+                <div class="best clearfix";>
+        <figure>
+        <img src="images/04.jpg" alt="어묵 쟁반";>
+        
+        <figcaption> 게임 썸네일</figcaption>
+        </figure>
+        
+        
+         <figure>
+            <img src="images/05.JPG" alt="어묵 쟁반";>
+          <figcaption>서울아 고마워 29초 영화제</figcaption>
+         </figure>
+             
+             <figure>
+            <img src="images/06.jpg" alt="어묵 쟁반";>
+          <figcaption>공정병역 UCC 공모전 (입상)</figcaption>
+         </figure>
+        
+        
+        </div>
+    
+                <div class="best clearfix";>
+        <figure>
+        <img src="images/07.jpg" alt="어묵 쟁반";>
+        
+        <figcaption>향수 인트로 광고 사진 </figcaption>
+        </figure>
+        
+        
+         <figure>
+            <img src="images/08.jpg" alt="어묵 쟁반";>
+          <figcaption>카드뉴스</figcaption>
+         </figure>
+             
+             <figure>
+            <img src="images/09.jpg" alt="어묵 쟁반";>
+          <figcaption>플렉서블 로고 디자인</figcaption>
+         </figure>
+        
+        </div>
+        </section>
+        <!-- contents -->
+
+        
+        <footer id="footer" class="clearfix">
+        <h2><img src="images/logoo.jpg" alt="로고"></h2>
+        <div class="foot">
+            <ul>
+            <li><a href="#">이용약관</a></li>
+            <li><a href="#">개인정보처리방침</a></li>
+            <li><a href="#">법적고지</a></li>
+            <li><a href="#">사업자 정보확인</a></li>
+            </ul>
+            <address>
+            한강미디어고등학교 대표자: 한창희<br>
+            주소: 서울시 양천구 목2동 목동중앙북로 106 <br>
+            대표자: 한창희 연락처<br>
+            이메일:swotnr1@naver.com<br>
+            전화번호: 010 2524 4854
+            </address>
+            </div>        
+         </footer>
+        <!--footer-->        
+        
+        
+    
+    <!-- wrap -->
+        
+        
+        
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script>
+        $(".nav > ul > li").mouseover(function(){
+            $(this).find(".submenu").stop().slideDown(200);
+        });
+        $(".nav > ul > li").mouseout(function(){
+            $(this).find(".submenu").stop().slideUp(200);
+        });
+        
+        
+        var currentIndex = 0;
+               
+        setInterval(function(){
+            if(currentIndex < 2){
+                currentIndex++;      
+           } else {
+                currentIndex = 0;
+           }
+           var SlidePostion = currentIndex * (-1000)+"px"; $(".slidelist").animate({ left:SlidePostion },400);
+        },3000);
+                       
+        </script>
+        
+        </div>
+    </body>
+</html>
+
+
+
+
+
+
